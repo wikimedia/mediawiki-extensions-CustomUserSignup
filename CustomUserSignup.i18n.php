@@ -192,6 +192,13 @@ $messages['ja'] = array(
 	'customusersignup-desc' => 'アカウント作成プロセス中の、カスタマイズ可能なメッセージを可能にします。',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'customusersignup-desc' => '계정 생성 과정에서의 메시지를 따로 정할 수 있게 함',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
