@@ -51,7 +51,6 @@ class CustomUsercreateTemplate extends UsercreateTemplate {
 	protected $campaign = null;
 
 	function __construct() {
-		global $wgRequest;
 		parent::__construct();
 		$this->campaign = CustomUserSignupHooks::getCampaign();
 	}
