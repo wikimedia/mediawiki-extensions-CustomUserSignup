@@ -143,6 +143,13 @@ $messages['gl'] = array(
 	'customusersignup-desc' => 'Permite mensaxes personalizables durante o proceso de creación de contas',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'customusersignup-desc' => 'Macht d Uusgab vu aapasste Benutzernorichte megli im Verlauf vum Aalege vum Benutzerkonto',
+);
+
 /** Hebrew (עברית)
  * @author Amire80
  */
