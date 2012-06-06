@@ -194,9 +194,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Schu
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'customusersignup-desc' => 'アカウント作成プロセス中の、カスタマイズ可能なメッセージを可能にします。',
+	'customusersignup-desc' => 'アカウント作成プロセス中の、カスタマイズ可能なメッセージを許可する',
 );
 
 /** Korean (한국어)
