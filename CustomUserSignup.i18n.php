@@ -37,7 +37,7 @@ $messages['ar'] = array(
 	'customusersignup-desc' => 'ويسمح للرسائل المخصصة أثناء عملية إنشاء الحساب',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -51,21 +51,21 @@ $messages['be-tarask'] = array(
 	'customusersignup-desc' => 'Дазваляе нестандартныя паведамленьні падчас працэсу стварэньня рахунку',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'customusersignup-desc' => 'Aotren a ra lakaat kemennadennoù a bep seurt pa vez krouet kontoù',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'customusersignup-desc' => 'Omogućava podešavanje poruka tokom procesa pravljenja računa',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Mormegil
  */
 $messages['cs'] = array(
@@ -100,7 +100,7 @@ $messages['eo'] = array(
 	'customusersignup-desc' => 'Ebligas por memfaritaj mesaĝoj dum la kreada procedo de kontoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Fitoschido
  */
 $messages['es'] = array(
@@ -114,7 +114,7 @@ $messages['fa'] = array(
 	'customusersignup-desc' => 'اجازه به پیام‌های قابل سفارشی کردن را در طی روند ایجاد حساب کاربری می‌هد',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Olli
  */
@@ -122,14 +122,14 @@ $messages['fi'] = array(
 	'customusersignup-desc' => 'Mahdollistaa mukautettujen viestien näyttämisen tunnuksen luomisprosessin aikana.',
 );
 
-/** French (Français)
+/** French (français)
  * @author IAlex
  */
 $messages['fr'] = array(
 	'customusersignup-desc' => 'Permet des messages variés au cours du processus de création de compte',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -171,7 +171,7 @@ $messages['hsb'] = array(
 	'customusersignup-desc' => 'Zmóžnja přiměrjomne zdźělenki při załoženju wužiwarskeho konta',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -185,7 +185,7 @@ $messages['id'] = array(
 	'customusersignup-desc' => 'Menyediakan pesan terkustomisasi saat proses pembuatan akun',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -228,7 +228,7 @@ $messages['map-bms'] = array(
 	'customusersignup-desc' => 'Nyediakna pesen sing di-kustomisasi nggo pas lagi proses nggawe akun',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -263,7 +263,7 @@ $messages['nl'] = array(
 	'customusersignup-desc' => 'Maakt het mogelijk aangepaste berichten weer te geven tijdens het aanmaken van gebruikers',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -278,35 +278,35 @@ $messages['pms'] = array(
 	'customusersignup-desc' => 'A përmët ëd përsonalisé ij mëssagi an mente dël process ëd creassion dël cont',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
 	'customusersignup-desc' => 'Permite apresentar mensagens personalizadas durante o processo de criação de conta',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
 	'customusersignup-desc' => 'Permite apresentar mensagens personalizadas durante o processo de criação de conta',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  */
 $messages['ro'] = array(
 	'customusersignup-desc' => 'Permite personalizarea mesajelor în timpul procesului de crearea a contului',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'customusersignup-desc' => "Permette de fa messagge personalizzate duranne 'u processe de ccrejazione d'u cunde utende",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
@@ -320,21 +320,21 @@ $messages['rue'] = array(
 	'customusersignup-desc' => 'Забезпечує присбособительны повідомлїня почас створїня конта',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'customusersignup-desc' => 'Umožňuje prispôsobovať správy pri vytváraní účtu',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
 	'customusersignup-desc' => 'Omogoča prilagodljiva sporočila med postopkom ustvarjanja računa',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  */
 $messages['sr-ec'] = array(
@@ -348,7 +348,7 @@ $messages['tl'] = array(
 	'customusersignup-desc' => 'Nagpapahintulot ng mga mensaheng mapapasadya habang isinasagawa ang paglikha ng akawnt',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Dim Grits
  */
 $messages['uk'] = array(
@@ -362,14 +362,14 @@ $messages['vi'] = array(
 	'customusersignup-desc' => 'Cho phép tùy biến các thông điệp trong quá trình mở tài khoản',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author 阿pp
  */
 $messages['zh-hans'] = array(
 	'customusersignup-desc' => '允许在邮件帐户创建过程中自定义消息',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Anakmalaysia
  */
 $messages['zh-hant'] = array(
