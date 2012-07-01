@@ -44,7 +44,7 @@ $messages['ast'] = array(
 	'customusersignup-desc' => 'Permite personalizar los mensaxes nel procesu de creación de cuentes',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
@@ -79,7 +79,7 @@ $messages['de'] = array(
 	'customusersignup-desc' => 'Ermöglicht die Ausgabe angepasster Benutzernachrichten im Verlauf der Benutzerkontenerstellung',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -136,7 +136,7 @@ $messages['frp'] = array(
 	'customusersignup-desc' => 'Pèrmèt des mèssâjos variâs pendent la mètoda de crèacion de compto.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -164,7 +164,7 @@ $messages['hi'] = array(
 	'customusersignup-desc' => 'खाता निर्माण प्रक्रिया के दौरान अनुकूलन संदेश के लिए अनुमति देता है',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -313,7 +313,7 @@ $messages['ru'] = array(
 	'customusersignup-desc' => 'Включает настраиваемые сообщения в процессе создания учётной записи',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
