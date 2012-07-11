@@ -202,9 +202,10 @@ $messages['ja'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
-	'customusersignup-desc' => '계정 생성 과정에서의 메시지를 따로 정할 수 있게 함',
+	'customusersignup-desc' => '계정 만들기 과정에서의 메시지를 따로 정할 수 있게 함',
 );
 
 /** Colognian (Ripoarisch)
@@ -249,7 +250,7 @@ $messages['ms'] = array(
 	'customusersignup-desc' => 'Membolehkan mesej yang boleh diubahsuai ketika proses pembukaan akaun',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Event
  */
 $messages['nb'] = array(
