@@ -5,7 +5,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.1.0
  * @author Nimish Gautam
  * @link http://www.mediawiki.org/wiki/Extension:CustomUserSignup Documentation
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
@@ -20,7 +19,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'CustomUserSignup',
 	'author' => 'Nimish Gautam',
-	'version' => '0.1.0',
+	'version' => '0.2.0',
 	'descriptionmsg' => 'customusersignup-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:CustomUserSignup'
 );
@@ -30,6 +29,7 @@ $dir = dirname( __FILE__ ) . '/';
 $wgAutoloadClasses['CustomUserSignupHooks'] = $dir . 'CustomUserSignup.hooks.php';
 $wgAutoloadClasses['CustomUserloginTemplate'] = $dir . 'CustomUserTemplate.php';
 $wgAutoloadClasses['CustomUsercreateTemplate'] = $dir . 'CustomUserTemplate.php';
+$wgMessagesDirs['CustomUserSignup'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CustomUserSignup'] = $dir . 'CustomUserSignup.i18n.php';
 
 // Hooks
@@ -50,4 +50,3 @@ $wgCustomUserSignupTrackAccountCreations = false;
 if ( class_exists( 'ClickTrackingHooks' ) ) {
 	ClickTrackingHooks::addCampaign($dir. 'modules', 'CustomUserSignup/modules', 'AccountCreationUserBucket' );
 }
-
