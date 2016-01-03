@@ -67,7 +67,7 @@ class CustomUserSignupHooks {
 				
 				// get the link part of the message
 				$originalLinkFull = $template->data['link'];
-				$originalLinkMessage = wfMsg( $linkmsg );
+				$originalLinkMessage = wfMessage( $linkmsg )->text();
 				
 				$leftOfLink = substr($originalLinkMessage, 0, strpos($originalLinkMessage, '$1'));
 				
@@ -77,16 +77,16 @@ class CustomUserSignupHooks {
 				$link = '<a href="' . $linkq . '">';
 				
 				if( wfMessage( "customusertemplate-$campaign-$linkmsg".'link' )->exists() ){  
-					$link .= wfMsgHtml( "customusertemplate-$campaign-$linkmsg" . 'link' );
+					$link .= wfMessage( "customusertemplate-$campaign-$linkmsg" . 'link' )->escaped();
 				} else {
-					$link .= wfMsgHtml( $linkmsg . 'link' );
+					$link .= wfMessage( $linkmsg . 'link' )->escaped();
 				}
 				$link .= '</a>';
 				
 				if( wfMessage( "customusertemplate-$campaign-$linkmsg" )->exists() ){
-					$template->set( 'link', wfMsgExt( "customusertemplate-$campaign-$linkmsg", array( 'parseinline', 'replaceafter' ), $link ) );
+					$template->set( 'link', wfMessage( "customusertemplate-$campaign-$linkmsg" )->rawParams( $link )->parse() );
 				} else {
-					$template->set( 'link', wfMsgExt( $linkmsg, array( 'parseinline', 'replaceafter' ), $link ) );
+					$template->set( 'link', wfMessage( $linkmsg )->rawParams( $link )->parse() );
 				}
 				
 			}
